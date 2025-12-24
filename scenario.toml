@@ -1,16 +1,14 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+image = "ghcr.io/pongking/tau2_green:v1.0"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_URL}$" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019b5061-5581-78a3-baac-cea2e9e561d3"
+name = "agent"
+image="ghcr.io/pongking/tau2_agent:v1.0"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_URL}$" }
 
 [config]
 # Add your assessment config here
+domain = "airline"
+num_tasks = 3

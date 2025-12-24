@@ -11,3 +11,4 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_U
 # Add your assessment config here
 domain = "airline"
 num_tasks = 3
+

@@ -1,11 +1,10 @@
 [green_agent]
-image = "ghcr.io/pongking/tau2_green:v1.0"
+agentbeats_id = "019b505d-5492-7970-a17c-37d317ebc2af"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_URL}$" }
 
 [[participants]]
 agentbeats_id = "019b5061-5581-78a3-baac-cea2e9e561d3"
 name = "agent"
-image="ghcr.io/pongking/tau2_agent:v1.0"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_URL}$" }
 
 [config]

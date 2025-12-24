@@ -1,0 +1,13 @@
+[green_agent]
+agentbeats_id = "019b505d-5492-7970-a17c-37d317ebc2af"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_URL}" }
+
+[[participants]]
+agentbeats_id = "019b5061-5581-78a3-baac-cea2e9e561d3"
+name = "agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "${OPENAI_BASE_URL}" }
+
+[config]
+# Add your assessment config here
+domain = "airline"
+num_tasks = 3

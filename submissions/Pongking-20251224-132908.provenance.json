@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/pongking/tau2_green@sha256:93cba092d22026a67be5465372ba86a8807f4099fcfb6e36b854355bf105ae9f",
+    "agent": "ghcr.io/pongking/tau2_agent@sha256:5aa9fd61a8ce8cd22f1de9a4b7c6b3c6697f746b3391973f1e40f340309358be",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2025-12-24T13:29:08Z"
+}
